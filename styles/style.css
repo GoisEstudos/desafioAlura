@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #212121;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.imagemAlura {
+    max-width: 100%;
+    height: auto;
+}
+
+.textInputI, .textInputII {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    flex: 1;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+button.btnDescriptografar {
+    background-color: #28a745;
+}
+
+button.bntCopiar {
+    background-color: #dc3545;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+button.btnDescriptografar:hover {
+    background-color: #218838;
+}
+
+button.bntCopiar:hover {
+    background-color: #c82333;
+}
+
+.aviso {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aviso img {
+    max-width: 100%;
+    height: auto;
+}
